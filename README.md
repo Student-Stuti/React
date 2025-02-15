@@ -16,11 +16,10 @@ Step 5 : npm run dev
 To install tailwind with react app
 
 Step 1: In terminal enter one by one npm install -D tailwindcss postcss autoprefixer
-                                     npm install -D tailwindcss@3.4.17
-                                     npx tailwindcss init -p
+npm install -D tailwindcss@3.4.17
+npx tailwindcss init -p
 
-Step 2: A file will be created tailwind.config.js in this file add "./index.html",
-"./src/\*_/_.{js,ts,jsx,tsx}"
+Step 2: A file will be created tailwind.config.js in this file add
 
 /** @type {import('tailwindcss').Config} \*/
 export default {
