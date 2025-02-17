@@ -7,6 +7,10 @@ import { ToDoprovider } from './context'
 function App() {
   const [todos , setTodos] = useState([])
 
+  const addTodo =(todo) => {
+    
+  }
+
   return (
    <ToDoprovider value={{todos, addTodo ,updateTodo,deleteTodo , toggleComplete}}>
   <div className="bg-[#172842] min-h-screen py-8">
